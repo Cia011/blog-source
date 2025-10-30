@@ -1,5 +1,6 @@
 backend:
   name: github
+  branch: master
   repo: Cia011/blog-source   # 注意：这里用新的源码仓库
 
 media_folder: "source/images"
