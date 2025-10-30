@@ -97,6 +97,10 @@ include:
 exclude:
 ignore:
 
+# # 添加skip_render配置，确保admin目录不被Hexo处理
+# skip_render:
+#   - "admin/**"  # 跳过admin目录的处理
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
