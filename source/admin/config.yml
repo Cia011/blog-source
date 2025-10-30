@@ -1,11 +1,16 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main
-  repo: Cia011/blog-source   # 注意：这里用新的源码仓库
 
+# 媒体文件配置
 media_folder: "source/images"
 public_folder: "/images"
 
+# 站点信息
+site_url: https://cia011.github.io
+display_url: https://cia011.github.io
+
+# 集合配置
 collections:
   - name: "blog"
     label: "博客文章"
