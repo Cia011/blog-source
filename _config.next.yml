@@ -1,0 +1,69 @@
+# 示例Next主题配置
+# 你可以根据需要自定义这些设置
+
+# 主题方案
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
+
+# 菜单设置
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+# 侧边栏设置
+sidebar:
+  position: left
+  display: post
+
+# 社交链接
+social:
+  GitHub: https://github.com/Cia011 || fab fa-github
+  # Twitter: https://twitter.com/Cia011 || fab fa-twitter
+  bilibili: https://space.bilibili.com/651225222?spm_id_from=333.1007.0.0 || fab fa-bilibili
+  Gitee: https://gitee.com/qvqciao || fab fa-gitee
+  Email: mailto:2772424100@qq.com || fas fa-envelope
+  CSDN: https://blog.csdn.net/QVQciao?spm=1000.2115.3001.5343 || fab fa-csdn
+# 代码高亮
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+
+# 主页文章显示设置
+excerpt_description: true
+auto_excerpt:
+  enable: true
+  length: 0  # 设置为0表示不显示摘要内容
+
+# 文章元数据设置
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# 文章封面图设置
+post_thumbnail:
+  enable: true
+  placeholder: /images/thumbnail-placeholder.jpg  # 默认占位图
+
+# 文章阅读更多设置
+read_more_btn: true
+
+
+# Blog rolls
+links_settings:
+  icon: fa fa-link
+  title: Links
+  # Available values: block | inline
+  layout: block
+links:
+  #Title: http://yoursite.com
+  # Luogu: https://www.luogu.com.cn/user/914079
